@@ -241,6 +241,5 @@ void printHelp() {
 	cout << "You are lost. You are alone. You wander around the school." << endl << endl;
 	cout << "Your command words are: go, get, drop, inventory (all lowercase)" << endl;
 	cout << "NOTE: when using go, get or drop, first type the command word. Afterwards you will be asked for the second argument" << endl;
-	}# Zuul
-# Zuul
-# Zuul
+	}
+
