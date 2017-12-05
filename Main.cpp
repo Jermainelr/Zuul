@@ -178,11 +178,11 @@ bool goRoom(Room** currentRoom, Room* home, vector<Item*> & inventory) {
 		// Winning condition
 		if (inventory.size() == 5) {
 			cout << "You Win!" << endl;
+			return true;
 		} else {
 			cout << "You Need to get all the 5 Items First!" << endl;
 			cout << "You Lose, you forgot to get all the 5 Items First!" << endl;
 		}
-		return true;
 	} else {
 		*currentRoom = nextRoom;
 		(*currentRoom)->printLongDescription();
